@@ -1,4 +1,4 @@
-/*function session_set() { //세션 저장
+function session_set() { //세션 저장
     let id = document.querySelector("#floatingInput");
     let password = document.querySelector("#floatingPassword");
     if (sessionStorage) {
@@ -8,7 +8,7 @@
     } else {
         alert("로컬 스토리지 지원 x");
     }
-}*/
+}
 
 function session_set(){ //세션 저장(객체)    
     let id = document.querySelector("#floatingInput");
